@@ -9,7 +9,7 @@ Clean and lightweight Appium automation framework for Android mobile testing.
 ## 🏗️ Architecture
 
 ```
-trust-chan/
+trust-test/
 ├── src/main/java/
 │   ├── base/
 │   │   └── BasePage.java              # Base page with common methods
@@ -191,7 +191,7 @@ mvn test -DsuiteXmlFile=testng.xml
 
 ### Configuration
 
-Edit `src/test/resources/config.properties`:
+Edit to your device information `src/test/resources/config.properties`:
 
 ```properties
 # Appium server
