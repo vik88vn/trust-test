@@ -1,0 +1,23 @@
+{
+  "android_pixel_6": {
+    "platformName": "Android",
+    "automationName": "UiAutomator2",
+    "deviceName": "Pixel_6",
+    "platformVersion": "13.0",
+    "avd": "Pixel_6",
+    "autoGrantPermissions": true,
+    "noReset": false,
+    "fullReset": false,
+    "newCommandTimeout": 300
+  },
+  "ios_iphone_14": {
+    "platformName": "iOS",
+    "automationName": "XCUITest",
+    "deviceName": "iPhone 14",
+    "platformVersion": "16.0",
+    "autoAcceptAlerts": true,
+    "noReset": false,
+    "fullReset": false,
+    "newCommandTimeout": 300
+  }
+}

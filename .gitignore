@@ -1,0 +1,34 @@
+# Compiled class files
+*.class
+target/
+
+# Log files
+*.log
+
+# Maven
+.mvn/
+mvn.cmd
+mvn
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Allure
+.allure/
+allure-results/
+allure-report/
+
+# Test outputs
+logs/
+*.log
+screenshots/
+test-output/
+

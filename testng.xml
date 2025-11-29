@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Trust Mobile Test Suite" verbose="2">
+    
+    <!-- Listeners for reporting and logging -->
+    <listeners>
+        <listener class-name="listeners.AllureListener"/>
+        <listener class-name="listeners.LoggingListener"/>
+    </listeners>
+    
+    <!-- Parameters for test configuration -->
+    <parameter name="appiumUrl" value="http://127.0.0.1:4723"/>
+    <parameter name="deviceName" value="Pixel 6"/>
+    <parameter name="platformVersion" value="13"/>
+    <parameter name="appPath" value="trust_test.apk"/>
+    
+    <test name="Login Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Buttons Tests">
+        <classes>
+            <class name="tests.ButtonsTest"/>
+        </classes>
+    </test>
+
+    <test name="List Tests">
+        <classes>
+            <class name="tests.ListTest"/>
+        </classes>
+    </test>
+
+    <test name="Switches Tests">
+        <classes>
+            <class name="tests.SwitchesTest"/>
+        </classes>
+    </test>
+
+    <test name="Input Tests">
+        <classes>
+            <class name="tests.InputTest"/>
+        </classes>
+    </test>
+    
+</suite>
+

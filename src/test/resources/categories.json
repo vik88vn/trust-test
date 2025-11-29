@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Product Defects",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Element Not Found",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*NoSuchElementException.*"
+  },
+  {
+    "name": "Timeout Issues",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*(TimeoutException|timeout).*"
+  },
+  {
+    "name": "Connection Issues",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*(Connection refused|Unable to connect).*"
+  },
+  {
+    "name": "Test Setup Issues",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*(Setup|Configuration).*"
+  }
+]
+
